@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyAJ8XJFzMNmvf0SnxGn98drjgHZhpP2874",
+    authDomain: "dartsleague-e7653.firebaseapp.com",
+    databaseURL: "https://dartsleague-e7653.firebaseio.com",
+    projectId: "dartsleague-e7653",
+    storageBucket: "dartsleague-e7653.appspot.com",
+    messagingSenderId: "607086718085",
+    appId: "1:607086718085:web:32bb641106b1fd5b"
+  }
 };
 
 /*
